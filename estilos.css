@@ -1,0 +1,58 @@
+
+body {
+    background-size: cover;
+    background-attachment: scroll;
+    
+
+}
+html{
+    background-image: url(2022-02-14-image-22c0091-005-1648047130.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+}
+header{
+    display:flex;
+    min-height: 65px;
+    background-color: darkslategrey;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+img{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 30%;
+    transition: 0.5s;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.centro{
+    text-align: center;
+    background: rgba(255, 230, 230, 0);
+    padding: 20px 20px;
+    border-bottom: 0cap;
+    
+}
+img:hover{
+    transform: scale(1.2);
+    text-decoration: none;
+
+}
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color:darkslategrey;
+   
+}
+a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    
+}
+
+.text{
+    padding: 200;
+    align-items:center ;
+    background-color: aquamarine;
+}
